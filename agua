@@ -1,0 +1,29 @@
+<?php
+
+$sm1 = "le robo el agua a";
+$sm2 = "le cambio la cerveza por el agua a";
+$sm3 = "de la emocion abrio la botella de agua y se la vacio en la cabeza a";
+$sm4 = "no pudo abrir la botella y le pido que se la abra a";
+$sm5 = "le tiro un botellazo de agua en la nuca a";
+$sm6 = "le derramo la botella de agua en la espalda a";
+$sm7 = "le vacio la botella de agua y se la lleno con vodka a";
+$sm8 = "Le metio pastillas en la botella de agua a";
+$sm9 = "se emborracho con el agua de";
+$sm10 = "le compro la botella de agua por 100 U$s a";
+$sm11 = "le vacio la botella de agua en el pecho a";
+$sm12 = "tiro un botellazo de agua a la pista y le pego en la oreja a";
+$sm13 = "se quiere tomar un viagra y le pido agua a";
+$sm14 = "le metio laxante en la botella de agua de";
+$sm15 = "le pidio un trago de agua a";
+$sm16 = "le cambio un celu robado por su botella de agua a";
+$sm17 = "le pido si le traia agua del inodoro a";
+$sm18 = "cambio su virginidad por la botella de agua a";
+$sm19 = "en un descuido le cambio su botella vacia por la llena a";
+
+$rm = array($sm1, $sm2, $sm3, $sm4, $sm5, $sm7, $sm8, $sm9, $sm10, $sm11, $sm12, $sm13, $sm14, $sm15, $sm16, $sm17,$sm18, $sm19,);
+
+$random_keys = array_rand($rm, 1);
+
+echo $rm[$random_keys];
+
+?>
